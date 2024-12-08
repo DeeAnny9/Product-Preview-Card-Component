@@ -142,6 +142,17 @@ body {
     transform: scale(1.03); 
 }
 
+@media (max-width: 556px) {
+    .card-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 800px;
+      height: 1000px;
+      border-radius: 10px;
+    }
+
 .add-to-cart i {
     font-size: 0.9rem;
 }
