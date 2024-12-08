@@ -142,6 +142,10 @@ body {
     transform: scale(1.03); 
 }
 
+.card-product-mobile {
+    display: none;
+}
+
 @media (max-width: 556px) {
     .card-container {
       display: flex;
@@ -151,8 +155,15 @@ body {
       width: 800px;
       height: 1000px;
       border-radius: 10px;
+      margin: 20px;
     }
-
-.add-to-cart i {
-    font-size: 0.9rem;
+    .card-product-desktop {
+        display: none;
+    }
+    .card-product-mobile {
+        display: block;
+    }
+    .add-to-cart i {
+      font-size: 0.9rem;
+    }
 }
